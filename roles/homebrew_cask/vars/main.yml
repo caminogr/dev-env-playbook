@@ -1,0 +1,29 @@
+---
+packages:
+  - { name: alfred }
+  - { name: appcleaner }
+  - { name: atom }
+  - { name: clipy }
+  - { name: dropbox }
+  - { name: docker }
+  - { name: evernote }
+  - { name: figma }
+  - { name: flux }
+  - { name: google-chrome }
+  - { name: gyazo }
+  - { name: iterm2 }
+  - { name: karabiner-elements }
+  - { name: kindle }
+  - { name: pophub }
+  - { name: react-native-debugger }
+  - { name: sequel-pro }
+  - { name: skype }
+  - { name: sketch }
+  - { name: slack-chrome }
+  - { name: spark }
+  - { name: spotify }
+  - { name: sublime-text }
+  - { name: vagrant }
+  - { name: virtualbox }
+  - { name: visual-studio-code }
+  - { name: zeplin }
