@@ -16,4 +16,4 @@
   with_items: "{{ packages }}"
 
   tags:
-    - homebrew
+    - brew_install

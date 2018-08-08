@@ -8,5 +8,4 @@
   with_items: "{{ packages }}"
 
   tags:
-    - homebrew
     - homebrew_cask
