@@ -1,0 +1,43 @@
+---
+taps:
+  - caskroom/versions
+  - homebrew/binary
+  - homebrew/cask
+  - homebrew/versions
+  - universal-ctags/universal-ctags
+
+packages:
+  # for gmv
+  - { name: coreutils }
+  - { name: cowsay }
+  - { name: fzf }
+  - { name: ghi }
+  - { name: git }
+  - { name: gnu-sed, install_options: with-default-names }
+  - { name: go }
+  - { name: grc }
+  - { name: grep }
+  - { name: hub }
+  - { name: jq }
+  - { name: mysql }
+  - { name: node-build }
+  - { name: nodenv }
+  - { name: openssl }
+  - { name: peco }
+  - { name: rbenv }
+  - { name: readline }
+  - { name: reattach-to-user-namespace }
+  - { name: redis }
+  - { name: ripgrep }
+  - { name: ruby }
+  - { name: ruby-build }
+  - { name: sqlite }
+  - { name: the_silver_searcher }
+  - { name: tig }
+  - { name: tmux }
+  - { name: tree }
+  - { name: universal-ctags }
+  - { name: vim }
+  - { name: watchman }
+  - { name: yarn }
+  - { name: zsh }
