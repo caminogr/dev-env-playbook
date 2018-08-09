@@ -1,0 +1,65 @@
+---
+- block:
+  - name: InitialKeyRepeat 
+    osx_defaults:
+      key: InitialKeyRepeat
+      type: int
+      value: 13
+      state: present
+
+  - name: KeyRepeat 
+    osx_defaults:
+      key: KeyRepeat
+      type: int
+      value: 1
+      state: present
+
+  - name: Mouse Speed
+    osx_defaults:
+      key: "Apple Global Domain"
+      domain: com.apple.mouse.scaling 
+      type: int
+      value: 8
+      state: present
+
+  - name: Dock autohide
+    osx_defaults:
+      domain: com.apple.dock
+      key: autohide
+      type: bool
+      value: true
+      state: present    
+
+  - name: Battery Showpercent
+    osx_defaults:
+      domain: com.apple.menuextra.battery
+      key: ShowPercent
+      type: string
+      value: YES
+      state: present
+
+  - name: Disable Live convert
+    osx_defaults:
+      domain: com.apple.inputmethod.Kotoeri
+      key: JIMPrefLiveConversionKey
+      type: int
+      value: 0
+      state: present
+
+  - name: Set Hot Corner As Screen Saver(corer)
+    osx_defaults:
+      domain: com.apple.dock
+      key: wvous-tl-corner 
+      type: int
+      value: 8
+      state: present
+
+  - name: Set Hot Corner As Screen Saver(modifier)
+    osx_defaults:
+      domain: com.apple.dock
+      key: wvous-tl-modifier 
+      type: int
+      value: 0
+      state: present
+  tags:
+    - osx
