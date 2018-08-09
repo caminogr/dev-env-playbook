@@ -75,7 +75,7 @@
       domain: com.apple.dock
       key: wvous-tl-corner 
       type: int
-      value: 8
+      value: 5
       state: present
 
   - name: Set Hot Corner As Screen Saver(modifier)
