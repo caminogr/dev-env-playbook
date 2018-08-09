@@ -7,4 +7,4 @@
 `brew install ansible`
 
 ### Run ansible command
-`ansible-playbook main.yml -i inventory`
+`ansible-playbook main.yml -i inventory --tags ○○`
