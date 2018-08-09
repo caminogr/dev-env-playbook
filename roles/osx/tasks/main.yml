@@ -30,6 +30,30 @@
       value: true
       state: present    
 
+  - name: Make Dock small
+    osx_defaults:
+      domain: com.apple.dock
+      key: tilesize
+      type: float
+      value: 20
+      state: present
+
+  - name: Show Dock delay
+    osx_defaults:
+      domain: com.apple.dock
+      key: autohide-delay
+      type: float 
+      value: 30 
+      state: present
+
+  - name: Show hidden file on Finder
+    osx_defaults:
+      domain: com.apple.finder
+      key: AppleShowAllFiles
+      type: bool
+      value: true
+      state: present
+
   - name: Battery Showpercent
     osx_defaults:
       domain: com.apple.menuextra.battery
@@ -61,5 +85,6 @@
       type: int
       value: 0
       state: present
+
   tags:
     - osx
