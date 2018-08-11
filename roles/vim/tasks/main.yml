@@ -1,15 +1,22 @@
 ---
 - block:
-  - name: mkdir directory
-    file:
-      path: ~/.cache/hoge
-      state: directory
-  - name: install dein installer 
-    get_url: 
-      url: https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
-      dest: ~/.cache/hoge
-      mode: 0755
-  - name: Run installer.sh
-    shell: ~/.cache/hoge/installer.sh ~/.cache/hoge/
+  - block:
+    - name: mkdir directory
+      file:
+        path: ~/.cache/hoge
+        state: directory
+    - name: install dein installer 
+      get_url: 
+        url: https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
+        dest: ~/.cache/hoge
+        mode: 0755
+    - name: Run installer.sh
+      shell: ~/.cache/hoge/installer.sh ~/.cache/hoge/
+
+  - block: 
+    - name: make backup file
+      file:
+        path: ~/.vimbackup
+        state: directory
   tags:
     - vim
