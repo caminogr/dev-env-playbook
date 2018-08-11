@@ -1,0 +1,5 @@
+mas_applications:
+  - { store_hash: 539883307, name: Line }
+  - { store_hash: 1278508951, name: trello }
+  - { store_hash: 1176895641, name: Spark }
+  - { store_hash: 1055511498, name: Day One }

@@ -19,6 +19,7 @@ packages:
   - { name: grep }
   - { name: hub }
   - { name: jq }
+  - { name: mas }
   - { name: mysql }
   - { name: node-build }
   - { name: nodenv }
