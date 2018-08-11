@@ -37,7 +37,7 @@ packages:
   - { name: tmux }
   - { name: tree }
   - { name: universal-ctags }
-  - { name: vim }
+  - { name: vim, install_options: with-lua }
   - { name: watchman }
   - { name: yarn }
   - { name: zsh }

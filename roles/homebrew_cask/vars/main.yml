@@ -18,6 +18,7 @@ packages:
   - { name: pophub }
   - { name: react-native-debugger }
   - { name: sequel-pro }
+  - { name: shiftit }
   - { name: skype }
   - { name: sketch }
   - { name: slack }
