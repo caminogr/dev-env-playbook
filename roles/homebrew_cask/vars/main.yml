@@ -10,6 +10,7 @@ packages:
   - { name: figma }
   - { name: flux }
   - { name: google-chrome }
+  - { name: google-japanese-ime }
   - { name: gyazo }
   - { name: iterm2 }
   - { name: karabiner-elements }
