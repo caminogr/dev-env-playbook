@@ -14,14 +14,6 @@
       value: 1
       state: present
 
-  - name: Mouse Speed
-    osx_defaults:
-      key: "Apple Global Domain"
-      domain: com.apple.mouse.scaling 
-      type: int
-      value: 8
-      state: present
-
   - name: Dock autohide
     osx_defaults:
       domain: com.apple.dock
@@ -43,7 +35,7 @@
       domain: com.apple.dock
       key: autohide-delay
       type: float 
-      value: 30 
+      value: 20 
       state: present
 
   - name: Show hidden file on Finder
@@ -85,6 +77,22 @@
       type: int
       value: 0
       state: present
+
+  # - name: Require password back from screensaver
+  #   osx_defaults:
+  #     domain: com.apple.screensaver
+  #     key: askForPassword 
+  #     type: int
+  #     value: 1
+  #     state: present
+  #
+  # - name: Require password back from screensaver(Delay)
+  #   osx_defaults:
+  #     domain: com.apple.screensaver
+  #     key: askForPasswordDelay 
+  #     type: int
+  #     value: 0
+  #     state: present
 
   tags:
     - osx
