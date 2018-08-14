@@ -12,6 +12,7 @@ packages:
   - { name: cowsay }
   - { name: fzf }
   - { name: ghi }
+  - { name: ghq }
   - { name: git }
   - { name: gnu-sed, install_options: with-default-names }
   - { name: go }
