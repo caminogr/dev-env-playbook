@@ -8,6 +8,7 @@ taps:
 
 packages:
   # for gmv
+  - { name: bat }
   - { name: coreutils }
   - { name: cowsay }
   - { name: fzf }
