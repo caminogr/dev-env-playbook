@@ -22,7 +22,6 @@ packages:
   - { name: skype }
   - { name: sketch }
   - { name: slack }
-  - { name: spark }
   - { name: spotify }
   - { name: sublime-text }
   - { name: vagrant }
