@@ -11,6 +11,7 @@ packages:
   - { name: bat }
   - { name: coreutils }
   - { name: cowsay }
+  - { name: docker-compose }
   - { name: fzf }
   - { name: ghi }
   - { name: ghq }
