@@ -1,2 +1,6 @@
-# ---
-
+---
+- name: mas install items
+  shell: "mas install {{ item.hash }}"
+  with_items: "{{ apps }}"
+  tags:
+    - mas

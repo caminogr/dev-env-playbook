@@ -1,6 +1,5 @@
 ---
 apps:
-  - { hash: 497799835, name: Xcode }
   - { hash: 775737590, name: iA Writer }
   - { hash: 539883307, name: LINE }
   - { hash: 1278508951, name: Trello }

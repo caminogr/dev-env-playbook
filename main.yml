@@ -4,6 +4,7 @@
   roles:
     - homebrew
     - homebrew_cask
+    - mas
     - osx
     - vim
     - zsh
