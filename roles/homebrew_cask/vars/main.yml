@@ -15,6 +15,7 @@ packages:
   - { name: iterm2 }
   - { name: karabiner-elements }
   - { name: kindle }
+  - { name: notion }
   - { name: pophub }
   - { name: react-native-debugger }
   - { name: sequel-pro }
