@@ -16,6 +16,7 @@ packages:
   - { name: karabiner-elements }
   - { name: kindle }
   - { name: notion }
+  - { name: pg-commander }
   - { name: pophub }
   - { name: react-native-debugger }
   - { name: sequel-pro }
