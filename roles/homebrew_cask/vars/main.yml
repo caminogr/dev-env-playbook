@@ -1,5 +1,6 @@
 ---
 packages:
+  - { name: abstract }
   - { name: alfred }
   - { name: appcleaner }
   - { name: atom }
