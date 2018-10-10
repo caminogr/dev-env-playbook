@@ -3,6 +3,7 @@ packages:
   - { name: abstract }
   - { name: alfred }
   - { name: appcleaner }
+  - { name: aerial }
   - { name: atom }
   - { name: clipy }
   - { name: dropbox }

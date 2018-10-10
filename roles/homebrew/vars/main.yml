@@ -1,6 +1,7 @@
 ---
 taps:
   - caskroom/versions
+  - codeclimate/formulae
   - homebrew/binary
   - homebrew/cask
   - homebrew/versions
@@ -9,6 +10,7 @@ taps:
 packages:
   # for gmv
   - { name: bat }
+  - { name: codeclimate }
   - { name: coreutils }
   - { name: cowsay }
   - { name: docker-compose }
@@ -20,6 +22,7 @@ packages:
   - { name: go }
   - { name: grc }
   - { name: grep }
+  - { name: heroku }
   - { name: hub }
   - { name: jq }
   - { name: mas }
