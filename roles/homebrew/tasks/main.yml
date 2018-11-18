@@ -3,17 +3,17 @@
   homebrew:
     update_homebrew: true
 
-- name: homebrew tap
-  homebrew_tap:
-    name: "{{ item }}"
-    state: present
-  with_items: "{{ taps }}"
-
 - name: homebrew packages install
   homebrew:
     name: "{{ item.name }}"
     state: "{{ item.state | default('present') }}"
   with_items: "{{ packages }}"
+  # - name: homebrew tap
+  #   homebrew_tap:
+  #     name: "{{ item }}"
+  #     state: present
+  #   with_items: "{{ taps }}"
+  #
 
   tags:
     - brew_install
