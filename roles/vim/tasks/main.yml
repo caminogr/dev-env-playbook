@@ -3,15 +3,15 @@
   - block:
     - name: mkdir directory
       file:
-        path: ~/.cache/hoge
+        path: ~/.cache/dein
         state: directory
     - name: install dein installer 
       get_url: 
         url: https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
-        dest: ~/.cache/hoge
+        dest: ~/.cache/dein
         mode: 0755
     - name: Run installer.sh
-      shell: ~/.cache/hoge/installer.sh ~/.cache/hoge/
+      shell: ~/.cache/dein/installer.sh ~/.cache/dein/
 
   - block: 
     - name: make backup file
