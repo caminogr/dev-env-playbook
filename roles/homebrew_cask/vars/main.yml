@@ -11,6 +11,7 @@ packages:
   - { name: evernote }
   - { name: figma }
   - { name: flux }
+  - { name: font-hack-nerd-font }
   - { name: google-chrome }
   - { name: google-japanese-ime }
   - { name: gyazo }

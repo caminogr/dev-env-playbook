@@ -6,6 +6,7 @@ taps:
   - homebrew/cask
   - homebrew/versions
   - universal-ctags/universal-ctags
+  - homebrew/cask-fonts
 
 packages:
   # for gmv
