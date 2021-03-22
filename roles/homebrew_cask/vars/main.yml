@@ -18,6 +18,7 @@ packages:
   - { name: shiftit }
   - { name: slack }
   - { name: spotify }
+  - { name: typora }
   - { name: vagrant }
   - { name: virtualbox }
   - { name: visual-studio-code }
