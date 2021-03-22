@@ -1,14 +1,10 @@
 ---
 packages:
-  - { name: abstract }
+  - { name: alacritty }
   - { name: alfred }
   - { name: appcleaner }
   - { name: aerial }
-  - { name: atom }
-  - { name: clipy }
   - { name: dropbox }
-  - { name: docker }
-  - { name: evernote }
   - { name: figma }
   - { name: flux }
   - { name: font-hack-nerd-font }
@@ -17,19 +13,10 @@ packages:
   - { name: gyazo }
   - { name: iterm2 }
   - { name: karabiner-elements }
-  - { name: kindle }
   - { name: notion }
-  - { name: pg-commander }
-  - { name: pophub }
-  - { name: react-native-debugger }
-  - { name: sequel-pro }
   - { name: shiftit }
-  - { name: skype }
-  - { name: sketch }
   - { name: slack }
   - { name: spotify }
-  - { name: sublime-text }
   - { name: vagrant }
   - { name: virtualbox }
   - { name: visual-studio-code }
-  - { name: zeplin }

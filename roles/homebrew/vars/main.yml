@@ -11,10 +11,6 @@ taps:
 packages:
   # for gmv
   - { name: bat }
-  - { name: codeclimate }
-  - { name: coreutils }
-  - { name: cowsay }
-  - { name: docker-compose }
   - { name: fzf }
   - { name: ghi }
   - { name: ghq }
@@ -23,7 +19,6 @@ packages:
   - { name: go }
   - { name: grc }
   - { name: grep }
-  - { name: heroku }
   - { name: hub }
   - { name: jq }
   - { name: mas }
@@ -35,17 +30,13 @@ packages:
   - { name: rbenv }
   - { name: readline }
   - { name: reattach-to-user-namespace }
-  - { name: redis }
   - { name: ripgrep }
   - { name: ruby }
   - { name: ruby-build }
-  - { name: sqlite }
   - { name: the_silver_searcher }
   - { name: tig }
   - { name: tmux }
   - { name: tree }
-  - { name: universal-ctags }
   - { name: vim, install_options: with-lua }
-  - { name: watchman }
   - { name: yarn }
   - { name: zsh }
